@@ -18,6 +18,7 @@ For Python 3.x users:
 <li>Python 2.7 / Python 3.4</li>
 <li>Linux/ OS X</li>
 <li>Windows</li>
+</ul>
 
 <h2>Usage</h2>
 
@@ -66,6 +67,12 @@ and so on.
 <h2>Preview</h2>
 
 Here's a preview of how the downloaded PDF file will look like. All the links in the file are clickable and will redirect you to required page.
+<br>
+<br>
+<img src="http://i.imgur.com/AASp9uy.png" alt="Screenshot of how the saved PDF looks" height="750" width="530">
+<br>
+<br>
+<img src="http://i.imgur.com/9BSGM89.png" alt="Screenshot of how the saved PDF looks" height="750" width="530">
 
 <h2>MIT License</h2>
 
