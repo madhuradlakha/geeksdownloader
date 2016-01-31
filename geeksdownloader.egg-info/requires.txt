@@ -1,0 +1,4 @@
+future
+pdfcrowd
+pdfcrowd3
+beautifulsoup4

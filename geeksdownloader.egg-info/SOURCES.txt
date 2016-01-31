@@ -1,0 +1,9 @@
+setup.py
+bin/geeksdownloader
+geeksdownloader/__init__.py
+geeksdownloader.egg-info/PKG-INFO
+geeksdownloader.egg-info/SOURCES.txt
+geeksdownloader.egg-info/dependency_links.txt
+geeksdownloader.egg-info/not-zip-safe
+geeksdownloader.egg-info/requires.txt
+geeksdownloader.egg-info/top_level.txt
