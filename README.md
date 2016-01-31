@@ -1,7 +1,7 @@
 # geeksdownloader
 
 Download all articles or posts from GeeksforGeeks, topic wise, within a minute!
-Also, enjoy the amazing user readibilty and an ad-free experience with links to related/used topics
+Also, enjoy the amazing user readibilty and an ad-free experience with links to related/used topics.
 
 <h2>Installation</h2>
 
@@ -11,7 +11,7 @@ For Python 2.x users:
 
 For Python 3.x users:
 
-   $ pip3 install geeksdownloader
+    $ pip3 install geeksdownloader
 
 <h3>Compatibility</h3>
 <ul>
@@ -30,7 +30,7 @@ Copy your username and API key or keep the PDFcrowd tab open.
 
 Now, run the package in a directory where you want your articles to be saved. To run, type the following on your timeline:
 
-    geeksdownloader
+    $ geeksdownloader
 
 Afterwards, enter your username and API key. 
 
