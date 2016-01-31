@@ -12,6 +12,7 @@ install_aliases()
 from urllib.request import urlopen, Request
 from builtins import input
 from builtins import str
+from future.utils import python_2_unicode_compatible
 
 # Saving HTML page as PDF
 
@@ -19,7 +20,7 @@ def save_as_pdf(s,title,acc_name,acc_key):
     try:
         client = pdfcrowd.Client(str(acc_name),str(acc_key))
         output_file = open(title+'.pdf', 'wb')
-        client.convertHtml(s.encode('utf-8'), output_file)
+        client.convertHtml(u"%s" %s, output_file)
         output_file.close()
         print("Saved file "+title+".pdf !")
     except pdfcrowd.Error:
@@ -73,7 +74,7 @@ def modify(url,acc_name,acc_key):
 
 print("\n\n\t\t\t\t\tWelcome!\n\nDownload all  articles of GeeksforGeeks, topic wise, within a minute\n ")
 acc_name = input("Please create a free HTML to PDF API account on PDFcrowd first, link: https://pdfcrowd.com/user/sign_up/?pid=default\n\nAfter that please go to your account details ( https://pdfcrowd.com/user/account/ ) and input your Username:\n\n")
-acc_key = input("\nNow enter your API key:\n\n")
+acc_key = input("\nNow, enter your API key:\n\n")
 type = input("\nWant to download a particular: \n\n1. Category, or\n2. Tag\n\n")
 topic = input("\nEnter the name of the topic or company, as per the url on GeeksforGeeks, eg- amazon, tree, sap-labs etc: \n\n")
 
@@ -111,4 +112,4 @@ except urllib.error.HTTPError as e:
 print("Done! Thank you, hope you liked it. Incase you did, do not forget to star it on ")
 
 
-
+# GeeksforGeeks_Downloader
