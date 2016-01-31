@@ -1,7 +1,7 @@
 # geeksdownloader
 
 Download all articles or posts from GeeksforGeeks, topic wise, within a minute!
-Also, enjoy the amazing user readibilty and an ad-free experience with links to related/used topics.
+Also, enjoy the amazing user readabilty and an ad-free experience with links to related/used topics.
 
 <h2>Installation</h2>
 
