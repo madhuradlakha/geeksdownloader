@@ -75,7 +75,7 @@ def modify(url,acc_name,acc_key):
 print("\n\n\t\t\t\t\tWelcome!\n\nDownload all  articles of GeeksforGeeks, topic wise, within a minute\n ")
 acc_name = input("Please create a free HTML to PDF API account on PDFcrowd first, link: https://pdfcrowd.com/user/sign_up/?pid=default\n\nAfter that please go to your account details ( https://pdfcrowd.com/user/account/ ) and input your Username:\n\n")
 acc_key = input("\nNow, enter your API key:\n\n")
-type = input("\nWant to download a particular: \n\n1. Category, or\n2. Tag\n\n")
+type = input("\nPlease keep the desired topic you want open in your browser and from the URL decide whether you want to download a particular: \n\n1. Category, or\n2. Tag\n\n")
 topic = input("\nEnter the name of the topic or company, as per the url on GeeksforGeeks, eg- amazon, tree, sap-labs etc: \n\n")
 
 choice=""
